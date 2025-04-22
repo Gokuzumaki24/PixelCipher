@@ -19,7 +19,9 @@ To ensure image quality is preserved while hiding data.
 To allow modular and maintainable Python code with separate encryption and decryption logic.
 
 
+
 ⚙️ Key Features:
+
 
 🔐 Passkey-Protected Encryption – Only users with the correct passkey can decrypt the hidden message.
 
@@ -34,7 +36,9 @@ To allow modular and maintainable Python code with separate encryption and decry
 📂 Custom Output Path – Encrypted images are saved to a specific path chosen by the developer.
 
 
+
 🛠️ Tech Stack:
+
 
 Language: Python 3
 
@@ -46,7 +50,9 @@ Tkinter – GUI creation
 
 os – File path and directory handling
 
+
 🛡️ Security Measures:
+
 
 Ensures data integrity by adding a special end delimiter $$END$$ to detect message corruption.
 
@@ -54,6 +60,8 @@ The passkey is embedded along with the message and is verified during decryption
 
 Any wrong key or tampered image will result in a failed decryption with appropriate user warning.
 
+
 🔚 Conclusion:
+
 
 This project provides a strong foundation for data hiding and basic encryption, showing how multimedia (images) can be used for secure communication.
